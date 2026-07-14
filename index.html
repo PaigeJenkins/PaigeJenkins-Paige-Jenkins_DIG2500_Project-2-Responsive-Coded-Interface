@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Eire</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                
+                <img src="Images/Logo.svg" alt="Logo">
+            </div>
+
+            <nav>
+                <a href="#places">PLACES</a>
+                <a href="#itinerary">ITINERARY</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="Images/Homepage_Irishcoast.jpg" alt="Irish coastline">
+
+            <div class="hero-text">
+                <h1>Hello!</h1>
+                <p>Let's plan your trip to Ireland.</p>
+            </div>
+        </section>
+
+        <section class="content-section" id="places">
+            <h2>Top places</h2>
+
+            <div class="card-row">
+    <article class="place-card">
+        <input type="checkbox" id="dublin">
+        <label for="dublin" class="pin">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.91 80.35">
+                <path d="M28.46,0C12.77,0,0,12.77,0,28.46s26.27,49.09,27.39,50.52l1.07,1.37,1.07-1.37c1.12-1.43,27.39-35.26,27.39-50.52S44.15,0,28.46,0h0ZM28.46,16.26c6.72,0,12.2,5.47,12.2,12.2s-5.47,12.2-12.2,12.2-12.2-5.47-12.2-12.2,5.47-12.2,12.2-12.2Z"/>
+            </svg>
+        </label>
+        <img src="Images/Dublin.jpg" alt="Dublin">
+        <h3>Dublin</h3>
+    </article>
+
+    <article class="place-card">
+        <input type="checkbox" id="newgrange">
+        <label for="newgrange" class="pin">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.91 80.35">
+                <path d="M28.46,0C12.77,0,0,12.77,0,28.46s26.27,49.09,27.39,50.52l1.07,1.37,1.07-1.37c1.12-1.43,27.39-35.26,27.39-50.52S44.15,0,28.46,0h0ZM28.46,16.26c6.72,0,12.2,5.47,12.2,12.2s-5.47,12.2-12.2,12.2-12.2-5.47-12.2-12.2,5.47-12.2,12.2-12.2Z"/>
+            </svg>
+        </label>
+        <img src="Images/Newgrange.jpg" alt="Newgrange">
+        <h3>Newgrange</h3>
+    </article>
+
+    <article class="place-card">
+        <input type="checkbox" id="cliffs">
+        <label for="cliffs" class="pin">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.91 80.35">
+                <path d="M28.46,0C12.77,0,0,12.77,0,28.46s26.27,49.09,27.39,50.52l1.07,1.37,1.07-1.37c1.12-1.43,27.39-35.26,27.39-50.52S44.15,0,28.46,0h0ZM28.46,16.26c6.72,0,12.2,5.47,12.2,12.2s-5.47,12.2-12.2,12.2-12.2-5.47-12.2-12.2,5.47-12.2,12.2-12.2Z"/>
+            </svg>
+        </label>
+        <img src="Images/CliffsofMoher.jpg" alt="Cliffs of Moher">
+        <h3>Cliffs of Moher</h3>
+    </article>
+
+    <article class="place-card">
+        <input type="checkbox" id="ring">
+        <label for="ring" class="pin">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.91 80.35">
+                <path d="M28.46,0C12.77,0,0,12.77,0,28.46s26.27,49.09,27.39,50.52l1.07,1.37,1.07-1.37c1.12-1.43,27.39-35.26,27.39-50.52S44.15,0,28.46,0h0ZM28.46,16.26c6.72,0,12.2,5.47,12.2,12.2s-5.47,12.2-12.2,12.2-12.2-5.47-12.2-12.2,5.47-12.2,12.2-12.2Z"/>
+            </svg>
+        </label>
+        <img src="Images/RingofKerry.jpg" alt="Ring of Kerry">
+        <h3>Ring of Kerry</h3>
+    </article>
+
+    <article class="place-card">
+        <input type="checkbox" id="causeway">
+        <label for="causeway" class="pin">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.91 80.35">
+                <path d="M28.46,0C12.77,0,0,12.77,0,28.46s26.27,49.09,27.39,50.52l1.07,1.37,1.07-1.37c1.12-1.43,27.39-35.26,27.39-50.52S44.15,0,28.46,0h0ZM28.46,16.26c6.72,0,12.2,5.47,12.2,12.2s-5.47,12.2-12.2,12.2-12.2-5.47-12.2-12.2,5.47-12.2,12.2-12.2Z"/>
+            </svg>
+        </label>
+        <img src="Images/GiantsCauseway.jpg" alt="Giants Causeway">
+        <h3>Giant's Causeway</h3>
+    </article>
+</div>
+        </section>
+
+        <section class="itinerary-section" id="itinerary">
+            <div class="itinerary-list">
+                <h2>Your pinned itinerary</h2>
+
+                <ol>
+                    <li>Dublin</li>
+                    <li>Newgrange</li>
+                    <li>Ring of Kerry Roadtrip</li>
+                    <li>Cliffs of Moher</li>
+                </ol>
+            </div>
+
+            <div class="map">
+                <img src="Images/IrelandMap.svg" alt="Map of Ireland with location pins">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                
+                <img src="Images/Logo.svg" alt="Logo">
+            </div>
+            <h2>Follow us @ExploreEire</h2>
+        
+            <p>Logo created by myself </p>
+            <p>Images and Pin icon found on Adobe Stock, and correctly licensed</p>
+            <p>My Dad, with extensive programming experience, helped me with any questions</p>
+            
+            <div class="footer-line"></div>
+        </div>
+    </footer>
+</body>
+</html>
